@@ -1,43 +1,52 @@
 # Open Source Audit Project
 
-## Student Details
-Name: Pranjali Sharma
-Roll Number: 24BAI10156
+## 📌 Course Information
+- **Course Name:** Open Source Software (OSS NGMC)
+- **University:** VIT Bhopal University
+- **Project Title:** Open Source Software Audit
 
-## Chosen Software
-Git
+---
 
-## Scripts Overview
+## 👩‍🎓 Student Details
+- **Name:** Ananya 
+- **Registration Number:** 24BCY10339
 
-### Script 1: System Identity Report
-Displays system details like kernel version, user, uptime, and OS information.
+---
 
-### Script 2: FOSS Package Inspector
-Checks if Git is installed and displays package details.
+## 🧠 Chosen Open Source Software
+**Git (Version Control System)**
 
-### Script 3: Disk and Permission Auditor
-Analyzes important system directories for size and permissions.
+Git is a distributed version control system used to track changes in source code during software development. It enables collaboration, version management, and efficient workflow for developers worldwide.
 
-### Script 4: Log File Analyzer
-Counts occurrences of keywords in log files.
+---
 
-### Script 5: Open Source Manifesto Generator
-Generates a personalized open-source philosophy statement.
+## 📁 Repository Contents
 
-## How to Run Scripts
+This repository contains:
 
+- `README.md` → Project overview and instructions  
+- `script1.sh` → System Identity Report  
+- `script2.sh` → FOSS Package Inspector  
+- `script3.sh` → Disk and Permission Auditor  
+- `script4.sh` → Log File Analyzer  
+- `script5.sh` → Open Source Manifesto Generator  
+- `manifesto_*.txt` → Generated output file from Script 5  
+
+---
+
+## ⚙️ Requirements
+
+To run this project, you need:
+
+- Linux environment (Ubuntu recommended / WSL)
+- Bash shell
+- Git installed
+
+---
+
+## 🚀 How to Run the Scripts
+
+### Step 1: Clone the repository
 ```bash
-chmod +x script1.sh
-./script1.sh
-
-chmod +x script2.sh
-./script2.sh
-
-chmod +x script3.sh
-./script3.sh
-
-chmod +x script4.sh
-./script4.sh /var/log/syslog
-
-chmod +x script5.sh
-./script5.sh
+git clone https://github.com/Ananya-vit/oss-audit-24BCY10339.git
+cd oss-audit-24BCY10339
